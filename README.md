@@ -22,6 +22,8 @@ This is explained here , you must get the drivers here
 exact hw number and package can differ
 
 sudo rm -r /lib/firmware/ath10k
+
 sudo cp -r ath10k-firmware/ /lib/firmware/ath10k/
+
 sudo mv /lib/firmware/ath10k/QCA6174/hw3.0/firmware-5.bin_SW_RM.1.1.1-00157-QCARMSWPZ-1 /lib/firmware/ath10k/QCA6174/hw3.0/firmware-5.bin
 
